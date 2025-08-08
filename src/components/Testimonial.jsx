@@ -14,7 +14,7 @@ const Testimonial = () => {
     return (
         <div className="flex flex-col items-center px-6 md:px-16 lg:px-24 pt-20 pb-30">
             <div className="flex flex-col justify-center items-center text-center">
-                <h1 className="text-4xl md:text-[40px] font-bold">Customer Testimonials</h1>
+                <h1 className="text-4xl text-slate-700 md:text-[40px] font-bold">Customer Testimonials</h1>
                 <p className="text-sm md:text-base text-gray-500/90 mt-2 max-w-[696px]">Hear what our users say about us. We're always looking for ways to improve. If you have a positive experience with us, leave a review.</p>
             </div>
 

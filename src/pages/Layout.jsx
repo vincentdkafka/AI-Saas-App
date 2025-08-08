@@ -21,7 +21,7 @@ const Layout = () => {
       
         <nav className='w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-200'>
           
-          <img src={assets.harshlogo} alt="logo"  onClick={()=>navigate("/")}/>
+          <img className='cursor-pointer w-28 sm:w-44' src={assets.harshlogo} alt="logo"  onClick={()=>navigate("/")}/>
           {
               sidebar ? <X onClick={()=>setSidebar(false)} className='w-6 h-6 text-gray-600 sm:hidden'/> : 
               <Menu onClick={()=>setSidebar(true)} className='w-6 h-6 text-gray-600 sm:hidden'/>
