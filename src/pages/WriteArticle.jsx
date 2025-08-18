@@ -35,7 +35,7 @@ const onSubmitHandler = async (e)=>{
       <div className="flex items-center gap-3">
         <Sparkle className='w-6 text-[#4A7AFF]'/>
         <h1 className='text-xl font-semibold'>
-          Article Configuration
+          AI Article Generator
         </h1>
       </div>
 
@@ -60,7 +60,7 @@ const onSubmitHandler = async (e)=>{
 
       <button className='w-full flex justify-center items-center gap-2 bg-gradient-to-r from-[#65ADFF] to-[#226BFF] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer'>
         <Edit className='w-5 '/>
-        Genereate Article
+        Generate Article
       </button>
 
     </form>
@@ -73,7 +73,7 @@ const onSubmitHandler = async (e)=>{
               <Edit className='w-5 h-5 text-[#4A7AFF]' />
 
                  <h1 className='text-xl font-semibold'>
-                  Article Configuration
+                  Generated Article
                  </h1>
 
             </div>
@@ -82,8 +82,8 @@ const onSubmitHandler = async (e)=>{
               <div className='text-sm flex flex-col items-center gap-5 text-gray-500'>
                 <Edit className='w-9 h-9'/>
                 <p>
-                  Enter a topic to get started
-                </p>
+                  Enter a topic and click on "Generate Article" to get started
+                 </p>
 
               </div>
 
