@@ -1,6 +1,6 @@
 # 🚀 Full Stack AI SaaS App (PERN Stack)
 
-Build and deploy a modern **AI-powered SaaS application** from scratch using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)**.  
+Build and deploy a modern **Harsh-AI** from scratch using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)**.  
 This project follows the [GreatStack YouTube tutorial](https://www.youtube.com/watch?v=RkYIWg5XAnI) — a 10-hour coding marathon where we assemble a fully functional, production-ready SaaS platform.
 
 ---
@@ -63,3 +63,85 @@ This project follows the [GreatStack YouTube tutorial](https://www.youtube.com/w
 ├── .env                   # Environment variables
 ├── .gitignore
 └── README.md
+```
+
+---
+
+
+## ⚡ Getting Started
+
+1️⃣ Clone the Repo
+```bash
+git clone https://github.com/your-username/ai-saas-pern.git
+cd ai-saas-pern
+```
+
+
+2️⃣ Install dependencies
+```bash
+# Install frontend dependencies
+cd client
+npm install
+
+# Install backend dependencies
+cd ../server
+npm install
+
+```
+
+3️⃣ Setup environment variables
+
+```bash
+# Server
+DATABASE_URL=postgresql://USER:PASSWORD@localhost:5432/dbname
+CLERK_API_KEY=your_clerk_api_key
+CLOUDINARY_API_KEY=your_cloudinary_key
+OPENAI_API_KEY=your_openai_key
+
+# Client
+VITE_CLERK_PUBLISHABLE_KEY=your_publishable_key
+
+```
+
+4️⃣ Run the development servers
+
+```bash
+# Start backend
+cd server
+npm run dev
+
+# Start frontend
+cd ../client
+npm run dev
+
+```
+**Now visit http://localhost:5173 🎉**
+
+---
+
+## 🚀 Deployment
+
+- Frontend → Vercel
+- Backend → Render
+ / Railway
+- Database → Supabase
+ / Neon
+ / Railway
+
+Push your code to GitHub and connect your repo to these platforms for one-click deployment.
+
+---
+
+
+## 🧠 Learning Goals
+
+By the end of this project you’ll:
+
+- Understand full-stack PERN workflows
+
+- Learn how to integrate AI APIs into real apps
+
+- Gain practical experience with authentication & cloud deployments
+
+- Build a portfolio-worthy SaaS product
+
