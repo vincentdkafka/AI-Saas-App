@@ -32,7 +32,7 @@ This project follows the [GreatStack YouTube tutorial](https://www.youtube.com/w
 **Backend**
 - Node.js  
 - Express.js  
-- PostgreSQL (with Prisma / SQL)  
+- PostgreSQL (with Neon / SQL)  
 
 **Other Tools**
 - Clerk (Authentication)  
@@ -144,4 +144,26 @@ By the end of this project you’ll:
 - Gain practical experience with authentication & cloud deployments
 
 - Build a portfolio-worthy SaaS product
+
+
+---
+
+## 🙌 Credits
+
+- This project is based on the GreatStack YouTube tutorial
+
+- Big thanks to the creator for the detailed walkthrough!
+
+
+---
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
+  
+Copyright (c) 2025 Harsh Kurware 
+mail: harshkurware03@gmail.com
+
+
 
