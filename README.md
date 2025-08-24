@@ -160,10 +160,12 @@ By the end of this project you’ll:
 
 ## 📜 License
 
-This project is licensed under the MIT License.
-  
+This project is licensed under the MIT License.  
 Copyright (c) 2025 Harsh Kurware 
-mail: harshkurware03@gmail.com
+
+---
+## 📬 Contact
+For feedback or inquiries, please reach out at harshkurware03@gmail.com
 
 
 
