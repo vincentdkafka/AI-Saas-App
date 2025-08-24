@@ -10,10 +10,16 @@ import ReviewResume from './pages/ReviewResume'
 import RemoveObject from './pages/RemoveObject'
 import RemoveBackground from './pages/RemoveBackgound'
 import GenerateImages from './pages/GenerateImages'
+import { useAuth } from '@clerk/clerk-react'
+import { useEffect } from 'react'
+import { Toaster} from 'react-hot-toast'
 
 const App = () => {
+
   return (
     <div>
+
+    <Toaster/>
 
       <Routes>
         <Route path='/' element={<Home/>} />
