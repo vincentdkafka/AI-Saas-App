@@ -72,8 +72,8 @@ This project follows the [GreatStack YouTube tutorial](https://www.youtube.com/w
 
 1️⃣ Clone the Repo
 ```bash
-git clone https://github.com/your-username/ai-saas-pern.git
-cd ai-saas-pern
+git clone https://github.com/vincentdkafka/AI-Saas-App.git
+cd AI-Saas-App
 ```
 
 
