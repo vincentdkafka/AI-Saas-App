@@ -1,7 +1,8 @@
 # 🚀 Full Stack AI SaaS App (PERN Stack)
 
 Build and deploy a modern **Harsh-AI** from scratch using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)**.  
-This project follows the [GreatStack YouTube tutorial](https://www.youtube.com/watch?v=RkYIWg5XAnI) — a 10-hour coding marathon where we assemble a fully functional, production-ready SaaS platform.
+This is an **AI-powered SaaS application** that offers a suite of creative and productivity tools, including **image generation, blog title generation, article writing, résumé review, object remover, and background remover**. It combines a modern UI, secure authentication, and scalable backend services to deliver a seamless user experience.  
+
 
 ---
 
